@@ -80,7 +80,7 @@ async def upload(bot: Client, m: Message):
     await input1.delete(True)
     
 
-    await editable.edit("**The🥰boys𝔼ɴᴛᴇʀ ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸**\n144,240,360,480,720,1080 please choose quality")
+    await editable.edit("**The🥰boys👉𝔼ɴᴛᴇʀ ʀᴇ𝕤ᴏʟᴜᴛɪᴏɴ📸**\n144,240,360,480,720,1080 please choose quality")
     input2: Message = await bot.listen(editable.chat.id)
     raw_text2 = input2.text
     await input2.delete(True)
@@ -121,9 +121,9 @@ async def upload(bot: Client, m: Message):
     await editable.delete()
 
     thumb = input6.text
-    if thumb.startswith("https://envs.sh/CQ7.jpg") or thumb.startswith("https://envs.sh/CQ7.jpg"):
+    if thumb.startswith("https://envs.sh/CQ7.jpg") or thumb.startswith("https://envs.sh/CQ8.jpg"):
         getstatusoutput(f"wget '{thumb}' -O 'https://envs.sh/CQ7.jpg'")
-        thumb = "https://envs.sh/CQ7.jpg"
+        thumb = "https://envs.sh/CQ8.jpg"
     else:
         thumb == "yes"
 
